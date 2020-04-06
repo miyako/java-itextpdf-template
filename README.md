@@ -3,4 +3,4 @@ Learning Java Apache Maven iText
 
 ### Notes
 
-#### ``pom.xml``
+* ``pom.xml``
