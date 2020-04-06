@@ -5,7 +5,7 @@ Learning Java Apache Maven iText
 
 Following the examples from [Itext 7 jump start tutorial java / Chapter 1](https://itextpdf.com/en/resources/books/itext-7-jump-start-tutorial-java/chapter-1).
 
-* ``pom.xml``
+##### Things to do for ``pom.xml``
 
 - add ``maven-shade-plugin`` to build **uber-JAR** c.f. [stackoverflow.com](https://stackoverflow.com/questions/10568275/noclassdeffounderror-on-maven-dependency)
 - add ``maven-jar-plugin`` to define ``mainClass``
