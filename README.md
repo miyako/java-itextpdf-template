@@ -7,6 +7,12 @@ Following the examples from [Itext 7 jump start tutorial java / Chapter 1](https
 
 #### Prerequisites
 
+* Get **AdoptOpenJDK**
+
+```sh
+brew cask install adoptopenjdk
+```
+
 * Get **Maven**
 
 ```sh
