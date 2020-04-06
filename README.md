@@ -11,6 +11,6 @@ Following the examples from [Itext 7 jump start tutorial java / Chapter 1](https
 
 - add ``maven-shade-plugin`` to build **uber-JAR**
 - add ``maven-assembly-plugin`` (maybe not necessary at this point)
-- add ``>maven-jar-plugin`` to define ``mainClass``
+- add ``maven-jar-plugin`` to define ``mainClass``
 - ``maven-dependency-plugin`` was not necessary
 
