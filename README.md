@@ -68,3 +68,17 @@ To run:
 cd target
 java -jar my-app-1.0-SNAPSHOT.jar
 ```
+
+---
+
+#### Goals 
+
+Eventually, create a tool to add digital signatures to PDF.
+
+[PortableSigner2](https://github.com/pflaeging/PortableSigner2) for Mac has not been updated for a long time. In fact, the binary is ``ppc`` ``i386``.
+
+[Oracle JDK](https://www.java.com/en/download/mac_download.jsp) license is free for development only. Use a variant of **OpenJDK** instead ([homebrew](https://github.com/AdoptOpenJDK/homebrew-openjdk) or [pkg](https://adoptopenjdk.net/?variant=openjdk14&jvmVariant=openj9)).  
+
+#### Subtasks
+
+* [Bundle the Java JRE into your macOS application](http://www.balthisar.com/blog/bundle-the-jre/).
