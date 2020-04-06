@@ -7,12 +7,22 @@ Following the examples from [Itext 7 jump start tutorial java / Chapter 1](https
 
 * ``pom.xml``
 
-[stackoverflow.com](https://stackoverflow.com/questions/10568275/noclassdeffounderror-on-maven-dependency)
-
-- add ``maven-shade-plugin`` to build **uber-JAR**
-- add ``maven-assembly-plugin`` (maybe not necessary at this point)
+- add ``maven-shade-plugin`` to build **uber-JAR** c.f. [stackoverflow.com](https://stackoverflow.com/questions/10568275/noclassdeffounderror-on-maven-dependency)
 - add ``maven-jar-plugin`` to define ``mainClass``
-- ``maven-dependency-plugin`` was not necessary
-- add iText ``kernel`` ``io`` ``layout``
+- add iText ``kernel`` ``io`` ``layout`` c.f. [itextpdf.com](https://itextpdf.com/en/resources/installation-guides/installing-itext-7-java)
+- adding ``maven-dependency-plugin`` was not necessary
+- adding ``maven-assembly-plugin`` was not necessary
 
-[itextpdf.com](https://itextpdf.com/en/resources/installation-guides/installing-itext-7-java)
+To package with maven:
+
+```
+cd my-app 
+mvn package
+```
+
+To run:
+
+```
+cd target
+java -jar my-app-1.0-SNAPSHOT.jar
+```
